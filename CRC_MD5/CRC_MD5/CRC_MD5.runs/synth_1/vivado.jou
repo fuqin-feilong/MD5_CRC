@@ -2,11 +2,11 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Sun Jul 26 23:55:02 2020
-# Process ID: 18156
-# Current directory: D:/ZFPGA/CRC_MD5/CRC_MD5.runs/synth_1
+# Start of session at: Mon Jul 27 13:31:51 2020
+# Process ID: 26692
+# Current directory: E:/Github/sea/MD5_CRC/CRC_MD5/CRC_MD5/CRC_MD5.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
-# Log file: D:/ZFPGA/CRC_MD5/CRC_MD5.runs/synth_1/top.vds
-# Journal file: D:/ZFPGA/CRC_MD5/CRC_MD5.runs/synth_1\vivado.jou
+# Log file: E:/Github/sea/MD5_CRC/CRC_MD5/CRC_MD5/CRC_MD5.runs/synth_1/top.vds
+# Journal file: E:/Github/sea/MD5_CRC/CRC_MD5/CRC_MD5/CRC_MD5.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source top.tcl -notrace

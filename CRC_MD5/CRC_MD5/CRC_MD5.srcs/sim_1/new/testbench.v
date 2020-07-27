@@ -39,6 +39,7 @@ module testbench();
          #1000 rst=1;
         end
       always #5 clk=~clk;
+      
 
     
 top test(

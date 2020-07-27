@@ -28,7 +28,7 @@ module top(
        
 );
 
-reg [31:0] in_data = 1000;
+//reg [31:0] in_data = 1000;
 reg ena = 1;
 reg wea = 0;
 reg [3:0] addra = 1;
@@ -37,7 +37,7 @@ reg dina;
 MD5 md5(
 .rst(rst),
 .clk(clk),
-.in_data(in_data),
+//.in_data(in_data),
 .out_a(out_a),
 .out_b(out_b),
 .out_c(out_c),

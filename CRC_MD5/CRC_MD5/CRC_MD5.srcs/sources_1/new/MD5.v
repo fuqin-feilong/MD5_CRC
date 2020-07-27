@@ -20,9 +20,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module MD5(rst,clk,out_a,out_b,out_c,out_d,in_data,ready);
+module MD5(rst,clk,out_a,out_b,out_c,out_d,ready);
 	input rst,clk;
-	input [31:0] in_data;
+	//input [31:0] in_data;
 	output [31:0] out_a,out_b,out_c,out_d;
 	output ready;
 	reg [31:0] out_a,out_b,out_c,out_d;
@@ -40,7 +40,8 @@ module MD5(rst,clk,out_a,out_b,out_c,out_d,in_data,ready);
 			if(!rst)
 				begin
 					case_c1<=8'd0;	
-					ready<=1'b0;			
+					ready<=1'b0;	
+					a=32'h01234567;b=32'h89abcdef;c=32'hfedcba98;d=32'd76543210;		
 				end
 			else
 				begin
@@ -48,83 +49,83 @@ module MD5(rst,clk,out_a,out_b,out_c,out_d,in_data,ready);
 						0:
 							begin
 								case_c1<=8'd1;	
-								in_data_reg[0]<=in_data;
+								in_data_reg[0]<=32'h80636261;
 								ready<=1'b0;
 							end
 						1:
 							begin
 								case_c1<=8'd2;	
-								in_data_reg[1]<=in_data;
+								in_data_reg[1]<=32'h00000000;
 							end	
 						2:
 							begin
 								case_c1<=8'd3;	
-								in_data_reg[2]<=in_data;
+								in_data_reg[2]<=32'h00000000;
 							end
 						3:
 							begin
 								case_c1<=8'd4;	
-								in_data_reg[3]<=in_data;
+								in_data_reg[3]<=32'h00000000;
 							end
 						4:
 							begin
 								case_c1<=8'd5;	
-								in_data_reg[4]<=in_data;
+								in_data_reg[4]<=32'h00000000;
 							end
 						5:
 							begin
 								case_c1<=8'd6;	
-								in_data_reg[5]<=in_data;
+								in_data_reg[5]<=32'h00000000;
 							end
 						6:
 							begin
 								case_c1<=8'd7;	
-								in_data_reg[6]<=in_data;
+								in_data_reg[6]<=32'h00000000;
 							end
 						7:
 							begin
 								case_c1<=8'd8;	
-								in_data_reg[7]<=in_data;
+								in_data_reg[7]<=32'h00000000;
 							end
 						8:
 							begin
 								case_c1<=8'd9;	
-								in_data_reg[8]<=in_data;
+								in_data_reg[8]<=32'h00000000;
 							end
 						9:
 							begin
 								case_c1<=8'd10;	
-								in_data_reg[9]<=in_data;
+								in_data_reg[9]<=32'h00000000;
 							end
 						10:
 							begin
 								case_c1<=8'd11;	
-								in_data_reg[10]<=in_data;
+								in_data_reg[10]<=32'h00000000;
 							end
 						11:
 							begin
 								case_c1<=8'd12;	
-								in_data_reg[11]<=in_data;
+								in_data_reg[11]<=32'h00000000;
 							end
 						12:
 							begin
 								case_c1<=8'd13;	
-								in_data_reg[12]<=in_data;
+								in_data_reg[12]<=32'h00000000;
 							end
 						13:
 							begin
 								case_c1<=8'd14;	
-								in_data_reg[13]<=in_data;
+								in_data_reg[13]<=32'h00000000;
 							end
 						14:
 							begin
 								case_c1<=8'd15;	
-								in_data_reg[14]<=in_data;
+								in_data_reg[14]<=32'h00000018;
 							end
 						15:
 							begin
 								case_c1<=8'd16;	
-								in_data_reg[15]<=in_data;
+								in_data_reg[15]<=32'h00000000;
 							end
 						16:
 							begin

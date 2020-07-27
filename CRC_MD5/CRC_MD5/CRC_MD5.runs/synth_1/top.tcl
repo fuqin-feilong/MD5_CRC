@@ -22,22 +22,16 @@ create_project -in_memory -part xc7s15ftgb196-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir D:/ZFPGA/CRC_MD5/CRC_MD5.cache/wt [current_project]
-set_property parent.project_path D:/ZFPGA/CRC_MD5/CRC_MD5.xpr [current_project]
-set_property XPM_LIBRARIES XPM_MEMORY [current_project]
+set_property webtalk.parent_dir E:/Github/sea/MD5_CRC/CRC_MD5/CRC_MD5/CRC_MD5.cache/wt [current_project]
+set_property parent.project_path E:/Github/sea/MD5_CRC/CRC_MD5/CRC_MD5/CRC_MD5.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo d:/ZFPGA/CRC_MD5/CRC_MD5.cache/ip [current_project]
+set_property ip_output_repo e:/Github/sea/MD5_CRC/CRC_MD5/CRC_MD5/CRC_MD5.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-add_files d:/md5.coe
 read_verilog -library xil_defaultlib {
-  D:/ZFPGA/CRC_MD5/CRC_MD5.srcs/sources_1/new/MD5.v
-  D:/ZFPGA/CRC_MD5/CRC_MD5.srcs/sources_1/new/top.v
+  E:/Github/sea/MD5_CRC/CRC_MD5/CRC_MD5/CRC_MD5.srcs/sources_1/new/MD5.v
+  E:/Github/sea/MD5_CRC/CRC_MD5/CRC_MD5/CRC_MD5.srcs/sources_1/new/top.v
 }
-read_ip -quiet d:/ZFPGA/CRC_MD5/CRC_MD5.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
-set_property used_in_implementation false [get_files -all d:/ZFPGA/CRC_MD5/CRC_MD5.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_ooc.xdc]
-
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
 # design are intentionally left as such for best results. Dcp files will be
@@ -46,8 +40,8 @@ set_property used_in_implementation false [get_files -all d:/ZFPGA/CRC_MD5/CRC_M
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/ZFPGA/CRC_MD5/CRC_MD5.srcs/constrs_1/new/sys.xdc
-set_property used_in_implementation false [get_files D:/ZFPGA/CRC_MD5/CRC_MD5.srcs/constrs_1/new/sys.xdc]
+read_xdc E:/Github/sea/MD5_CRC/CRC_MD5/CRC_MD5/CRC_MD5.srcs/constrs_1/new/sys.xdc
+set_property used_in_implementation false [get_files E:/Github/sea/MD5_CRC/CRC_MD5/CRC_MD5/CRC_MD5.srcs/constrs_1/new/sys.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
