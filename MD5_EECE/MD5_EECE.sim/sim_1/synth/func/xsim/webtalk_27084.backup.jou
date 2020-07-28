@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jul 28 09:37:06 2020
+# Process ID: 27084
+# Current directory: E:/vivado_project/MD5_EECE/MD5_EECE.sim/sim_1/synth/func/xsim
+# Command line: wbtcv.exe -mode batch -source E:/vivado_project/MD5_EECE/MD5_EECE.sim/sim_1/synth/func/xsim/xsim.dir/testbench_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/vivado_project/MD5_EECE/MD5_EECE.sim/sim_1/synth/func/xsim/webtalk.log
+# Journal file: E:/vivado_project/MD5_EECE/MD5_EECE.sim/sim_1/synth/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/vivado_project/MD5_EECE/MD5_EECE.sim/sim_1/synth/func/xsim/xsim.dir/testbench_func_synth/webtalk/xsim_webtalk.tcl -notrace

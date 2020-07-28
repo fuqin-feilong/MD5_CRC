@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MD5_EECE.srcs/sources_1/new/md5_iterative.v" \
+"../../../../MD5_EECE.srcs/sources_1/new/md5_operation.v" \
+"../../../../MD5_EECE.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

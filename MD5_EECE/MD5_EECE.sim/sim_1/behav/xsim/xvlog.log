@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_project/MD5_EECE/MD5_EECE.srcs/sources_1/new/md5_iterative.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module md5_iterative
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'digest_o' is not allowed [E:/vivado_project/MD5_EECE/MD5_EECE.srcs/sources_1/new/md5_iterative.v:34]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_project/MD5_EECE/MD5_EECE.srcs/sources_1/new/md5_operation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module md5_operation
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_project/MD5_EECE/MD5_EECE.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

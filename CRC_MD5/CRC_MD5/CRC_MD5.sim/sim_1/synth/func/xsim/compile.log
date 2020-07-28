@@ -1,6 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Github/sea/MD5_CRC/CRC_MD5/CRC_MD5/CRC_MD5.sim/sim_1/synth/func/xsim/testbench_func_synth.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module MD5
-INFO: [VRFC 10-311] analyzing module top
-INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Github/sea/MD5_CRC/CRC_MD5/CRC_MD5/CRC_MD5.srcs/sim_1/new/testbench.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module testbench
