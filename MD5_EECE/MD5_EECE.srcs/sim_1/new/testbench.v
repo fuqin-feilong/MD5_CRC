@@ -22,33 +22,47 @@
 
 
 module testbench();
-    reg rst,clk;
-    wire [127:0]digest;
-    wire valid;
-    wire [127:0]value;
-    reg [127:0]message;
+    reg rst_n,clk;
+   // wire [127:0]digest;
+   // wire valid;
+    //wire [127:0]value;
+    //reg [127:0]message;
+    reg [7:0]data_in;
+    wire[7:0]data_out;
+    wire [7:0]addr;
+    wire wen;
     initial
         begin
         clk=0;
-        rst=1;
-        message=128'h61616161616161616161616161616161;
-         #10 rst=1;
+      // wen=0;
+
+       rst_n=0;
+        data_in=8'h61;
+         #10 rst_n=1;
          
-         #10 rst=0;
+         //#10 rst=0;
         
         end
       always #5 clk=~clk;
       
 
-    
-md5_iterative  md5(
-.digest_o(digest),//output [127:0] 
- .valid(valid),//output 
- .value(value), //  output [127:0]
+
+qspi_adder aa(
 .clk(clk),
- .rst(rst), //input
-.message(message),//   input [127:0] 
-.new_message(1)
+.rst_n(rst_n),
+//RAM
+
+.data_in(data_in),
+.addr(addr), 
+.data_out(data_out),
+.wen(wen)
 );
+    
+
+
+
+
+
+
 
 endmodule
