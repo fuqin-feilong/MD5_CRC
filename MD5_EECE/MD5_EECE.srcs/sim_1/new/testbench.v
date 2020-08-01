@@ -47,7 +47,7 @@ module testbench();
       
 
 
-qspi_adder aa(
+qspi aa(
 .clk(clk),
 .rst_n(rst_n),
 //RAM
