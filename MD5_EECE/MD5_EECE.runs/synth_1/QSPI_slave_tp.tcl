@@ -31,9 +31,9 @@ set_property target_language Verilog [current_project]
 set_property ip_output_repo e:/vivado_project/MD5_EECE/MD5_EECE.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
-  E:/vivado_project/MD5_EECE/MD5_EECE.srcs/sources_1/new/md5_iterative.v
-  E:/vivado_project/MD5_EECE/MD5_EECE.srcs/sources_1/new/md5_operation.v
-  E:/vivado_project/MD5_EECE/MD5_EECE.srcs/sources_1/new/qspi_adder.v
+  E:/vivado_project/MD5_EECE/MD5_EECE.srcs/sources_1/new/md5.v
+  E:/vivado_project/MD5_EECE/MD5_EECE.srcs/sources_1/new/md5_run.v
+  E:/vivado_project/MD5_EECE/MD5_EECE.srcs/sources_1/new/qspi.v
   E:/vivado_project/MD5_EECE/MD5_EECE.srcs/sources_1/new/qspi_slave.v
   E:/vivado_project/MD5_EECE/MD5_EECE.srcs/sources_1/new/QSPI_slave_tp.v
 }

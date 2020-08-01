@@ -104,7 +104,7 @@ always @(posedge clk,negedge rst_n) begin
     end
 
         
- md5_iterative  md5(
+ md5_run  md5(
 .digest_o(digest),//output [127:0] 
  .valid(valid),//output 
  .value(value), //  output [127:0]
