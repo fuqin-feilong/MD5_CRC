@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"testbench_func_synth.v" \
+"../../../../../MD5_EECE.srcs/sources_1/new/md5_iterative.v" \
+"../../../../../MD5_EECE.srcs/sources_1/new/md5_operation.v" \
+"../../../../../MD5_EECE.srcs/sources_1/new/qspi_adder.v" \
+"../../../../../MD5_EECE.srcs/sim_1/new/testbench.v" \
+
+# Do not sort compile order
+nosort
