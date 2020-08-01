@@ -18,8 +18,8 @@
    + 板卡型号: SEA
 ## 仓库⽬录介绍
    + ExecutableFiles
-    + 存放bitstream文件
+                        + 存放bitstream文件
    + MD5_EECE  
-    + MD5加密vivado工程
+                        + MD5加密vivado工程
    + Sourcecode 
-    + verilog源文件
+                         + verilog源文件
