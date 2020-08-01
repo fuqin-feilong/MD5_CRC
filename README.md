@@ -30,4 +30,4 @@
            verilog源文件
  
 ## 作品照片
-![your-picture](images/1.png?raw=true)
+![your-picture](images/1.png?raw=true) 国内DNS污染无法展示
