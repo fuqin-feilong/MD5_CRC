@@ -23,6 +23,7 @@
    + ucraft 1.2
 ## 板卡型号与外设列表
    + 板卡型号: SEA
+   + 芯片型号：spartan7 xcs15
 ## 仓库⽬录介绍
    + ExecutableFiles
    
