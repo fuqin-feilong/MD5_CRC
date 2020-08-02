@@ -42,8 +42,16 @@
    
            verilog源文件
            
+                        QSPI_slave_tp.v
+                        md5.v
+                        md5_run.v
+                        qspi.v
+                        qspi_slave.v
+                        testbench.v
+           
    + images
    
+           FPGA模块框架
            演示照片和视频
  
 ## 作品照片
