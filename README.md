@@ -55,4 +55,4 @@
            演示照片和视频
  
 ## 作品演示
-![your-picture](images/1.png?raw=true) 国内DNS污染无法展示，images下载查看
+![your-picture](http://tiebapic.baidu.com/forum/w%3D580%3B/sign=3e1c3f9cf1cd7b89e96c3a8b3f1f43a7/3812b31bb051f8196c033c1ccdb44aed2e73e746.jpg) 国内DNS污染无法展示，images下载查看
