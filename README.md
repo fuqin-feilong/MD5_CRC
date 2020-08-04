@@ -25,7 +25,7 @@
 ## ⼯具版本
    + vivado2018.3  
    + ardunio1.8
-   + ucraft 1.2
+   + upycraft 1.2
 ## 板卡型号与外设列表
    + 板卡型号: SEA
    + 芯片型号：spartan7 xcs15
